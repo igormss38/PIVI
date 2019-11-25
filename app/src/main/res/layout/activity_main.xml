@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3F51B5"
+    tools:context=".view.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:text="Smart Hub"
+        android:textColor="#ffff"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Dispositivo inteligente que possui integração com a nuvem, permitindo o controle através de um aplicativo móvel. O dispositivo deverá ser capaz de ser um relógio digital com monitoramento de temperatura, controle de cores sensível ao som e player de musica."
+        android:textColor="#ffff"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/gostaria_de_ouvir_uma_musica"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/botaograf"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:textSize="25sp"
+        android:text="@string/vamos_la" />
+
+    <Button
+        android:id="@+id/botaomus"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:textSize="25sp"
+        android:text="Temperatura" />
+
+    <Button
+        android:id="@+id/botaoalex"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:textSize="25sp"
+        android:text="Alexa" />
+
+</LinearLayout>
